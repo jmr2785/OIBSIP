@@ -1,0 +1,25 @@
+Command Run:
+nmap -sV 127.0.0.1
+
+Output:
+Starting Nmap 7.97 ( https://nmap.org ) at 2025-06-15 22:04 +0530
+Nmap scan report for localhost (127.0.0.1)
+Host is up (0.000034s latency).
+Not shown: 997 closed tcp ports (conn-refused)
+PORT     STATE SERVICE VERSION
+631/tcp  open  ipp     CUPS 2.3
+5000/tcp open  rtsp
+7000/tcp open  rtsp
+
+2 services unrecognized despite returning data. If you know the service/version, please submit the following fingerprints at https://nmap.org/cgi-bin/submit.cgi?new-service :
+
+==============NEXT SERVICE FINGERPRINT (SUBMIT INDIVIDUALLY)==============
+SF-Port5000-TCP:V=7.97%I=7%D=6/15%Time=684EF621%P=x86_64-apple-darwin21.6.
+SF:0%r(GetRequest,8F,"HTTP/1.1 403 Forbidden\r\nContent-Length: 0\r\nServer: AirTunes/845.5.1\r\nX-Apple-ProcessingTime: 0\r\nX-Apple-RequestReceivedTimestamp: 426329292\r\n\r\n")%r(RTSPRequest,8F,"RTSP/1.0 403 Forbidden\r\nContent-Length: 0\r\nServer: AirTunes/845.5.1\r\nX-Apple-ProcessingTime: 0\r\nX-Apple-RequestReceivedTimestamp: 426329366\r\n\r\n")
+
+==============NEXT SERVICE FINGERPRINT (SUBMIT INDIVIDUALLY)==============
+SF-Port7000-TCP:V=7.97%I=7%D=6/15%Time=684EF625%P=x86_64-apple-darwin21.6.
+SF:0%r(RTSPRequest,8F,"RTSP/1.0 403 Forbidden\r\nContent-Length: 0\r\nServer: AirTunes/845.5.1\r\nX-Apple-ProcessingTime: 4\r\nX-Apple-RequestReceivedTimestamp: 426329286\r\n\r\n")
+
+Service detection performed. Please report any incorrect results at https://nmap.org/submit/
+Nmap done: 1 IP address (1 host up) scanned in 19.25 seconds
