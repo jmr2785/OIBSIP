@@ -33,4 +33,4 @@ The Nmap scan effectively identified two open ports running Apple's media stream
 ## Files Included
 - `nmap_scan_results.txt`: Raw output from the terminal scan
 - `README.md`: Explanation of the scan and analysis
-
+- `screenshots`: Screenshots of the scan and analysis
