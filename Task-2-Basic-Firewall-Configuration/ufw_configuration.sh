@@ -20,12 +20,3 @@ sudo ufw --force enable
 echo "Firewall rules applied. Displaying current UFW status:"
 sudo ufw status verbose
 
-
-Optional: Make the Script Executable
-After saving the file, make it executable with:
-
-chmod +x ufw_configuration.sh
-
-Then you can run it with:
-
-./ufw_configuration.sh
