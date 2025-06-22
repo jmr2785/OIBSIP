@@ -28,6 +28,25 @@ To demonstrate a successful SQL Injection attack on a vulnerable web application
 - Set the security level to **Low**.
 - Save the settings.
 
+# SQL Injection Demonstration on DVWA (Low Security)
+
+![DVWA Logo](https://www.dvwa.co.uk/images/dvwa_logo.png)
+
+This guide demonstrates how to perform SQL injection on DVWA (Damn Vulnerable Web Application) with low security settings.
+
+## Prerequisites
+
+- Linux system (Kali Linux recommended)
+- LAMP stack (Apache, MySQL, PHP)
+- Git
+- Web browser
+
+## Installation
+
+### 1. Install Required Packages
+```bash
+sudo apt update && sudo apt install -y apache2 mysql-server php php-mysqli php-gd libapache2-mod-php git
+
 ### 3. Perform SQL Injection
 - Go to `SQL Injection` section in DVWA.
 - Enter the following payload in the User ID input box:
