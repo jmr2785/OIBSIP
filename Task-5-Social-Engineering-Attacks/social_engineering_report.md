@@ -108,6 +108,8 @@ Hackers targeted Twitter employees with phishing emails, gaining access to inter
 - $118,000 in Bitcoin stolen  
 - Public trust in Twitter’s security shaken
 
+[Source (BBC News)](https://www.bbc.com/news/technology-53425822)
+
 ---
 
 ### 2. Target Breach (2013)
@@ -121,6 +123,8 @@ Attackers sent phishing emails to an HVAC vendor, compromising login credentials
 - Estimated cost: Over $200 million  
 - Highlighted the importance of vendor risk management
 
+[Source (KrebsOnSecurity)](https://krebsonsecurity.com/2014/02/target-hackers-broke-in-via-hvac-company/)
+
 ---
 
 ### 3. RSA Security Breach (2011)
@@ -132,6 +136,8 @@ The spreadsheet exploited an Adobe Flash vulnerability to install a backdoor. At
 **Impact:**
 - Weakening of two-factor authentication credibility  
 - Ripple effect across clients using RSA for authentication
+
+[Source (Wired)](https://www.wired.com/2011/06/rsa-hack/)
 
 ---
 
@@ -203,13 +209,11 @@ Security is not just about code or firewalls—**it’s about people.**
 
 ## References
 
-1. Verizon Data Breach Investigations Report (2024)  
-2. Twitter Hack – BBC News (2020)  
-3. RSA Security Breach – Wired (2011)  
-4. Target Breach Case Study – Krebs on Security  
-5. CISA: Social Engineering Guidance – https://www.cisa.gov  
-6. OWASP Social Engineering Cheat Sheet  
-7. “The Art of Deception” by Kevin Mitnick
-
----
+1. [Verizon Data Breach Investigations Report (2024)](https://www.verizon.com/business/resources/reports/dbir/)  
+2. [Twitter Hack – BBC News (2020)](https://www.bbc.com/news/technology-53425822)  
+3. [RSA Security Breach – Wired (2011)](https://www.wired.com/2011/06/rsa-hack/)  
+4. [Target Breach Case Study – KrebsOnSecurity](https://krebsonsecurity.com/2014/02/target-hackers-broke-in-via-hvac-company/)  
+5. [CISA: Social Engineering Guidance](https://www.cisa.gov/news-events/news/recognizing-and-avoiding-social-engineering-attacks)  
+6. [OWASP: Social Engineering Cheat Sheet](https://owasp.org/www-community/attacks/Social_Engineering_Attack)  
+7. [“The Art of Deception” by Kevin Mitnick (Goodreads)](https://www.goodreads.com/en/book/show/73078)
 
