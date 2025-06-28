@@ -1,11 +1,11 @@
 # Vulnerability Scanning with Nikto
 
-## 🛠️ Objective
+##  Objective
 The goal of this task is to perform a vulnerability scan on a local web application (`bWAPP`) using **Nikto**, a powerful open-source web server scanner. The scan identifies missing security headers and allowed HTTP methods, helping to improve web application security posture.
 
 ---
 
-## 🧰 Tools Used
+##  Tools Used
 
 - **Nikto v2.5.0** – A command-line web server scanner.
 - **bWAPP** – A deliberately insecure web application for penetration testing practice.
@@ -13,9 +13,9 @@ The goal of this task is to perform a vulnerability scan on a local web applicat
 
 ---
 
-## 🔧 Scan Setup
+##  Scan Setup
 
-### ✅ Pre-Requisites
+###  Pre-Requisites
 
 - `bWAPP` running locally at `http://localhost/bWAPP`
 - Apache server active
@@ -34,8 +34,10 @@ Target Hostname: localhost
 Target Port: 80
 
 Identified Vulnerabilities:
-Type	Details
-Missing Security Header	X-Frame-Options header is not set. This makes the site vulnerable to clickjacking attacks.
-Missing Content-Type Header	X-Content-Type-Options header is not set. This could allow the browser to MIME-sniff the content and lead to cross-site scripting (XSS) attacks.
-Allowed HTTP Methods	HEAD, GET, POST, and OPTIONS methods are allowed. It's best practice to disable unused methods.
-CGI Directories	No CGI directories were found. Deeper checks can be performed using the -C all option.
+
+| Type                        | Details                                                                                                                                            |
+| --------------------------- | -------------------------------------------------------------------------------------------------------------------------------------------------- |
+| Missing Security Header     | `X-Frame-Options` header is not set. This makes the site vulnerable to clickjacking attacks.                                                       |
+| Missing Content-Type Header | `X-Content-Type-Options` header is not set. This could allow the browser to MIME-sniff the content and lead to cross-site scripting (XSS) attacks. |
+| Allowed HTTP Methods        | `HEAD`, `GET`, `POST`, and `OPTIONS` methods are allowed. It's best practice to disable unused methods.                                            |
+| CGI Directories             | No CGI directories were found. Deeper checks can be performed using the `-C all` option.                                                           |
