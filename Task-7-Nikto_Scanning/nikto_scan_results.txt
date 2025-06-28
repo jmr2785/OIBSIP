@@ -1,0 +1,27 @@
+- Nikto v2.1.6
+---------------------------------------------------------------------------
++ Target IP:          127.0.0.1
++ Target Hostname:    localhost
++ Target Port:        80
++ Start Time:         2025-06-28 14:35:02 (GMT+5:30)
+---------------------------------------------------------------------------
++ Server: Apache/2.4.41 (Ubuntu)
++ Retrieved x-powered-by header: PHP/7.4.3
++ The anti-clickjacking X-Frame-Options header is not present.
++ The X-XSS-Protection header is not defined. This header can help prevent cross-site scripting (XSS) attacks.
++ The X-Content-Type-Options header is not set. This could allow the browser to perform MIME-type sniffing.
++ OSVDB-3092: /admin/: This directory may be used for administrative purposes. Ensure it is protected.
++ OSVDB-3092: /phpmyadmin/: phpMyAdmin interface found. Access should be restricted.
++ OSVDB-3092: /passwords/: This path may contain sensitive information.
++ OSVDB-3092: /config/: Possible configuration directory exposed.
++ /includes/: Directory indexing is enabled.
++ /robots.txt: Contains disallowed entries. Check for sensitive paths.
++ /login.php: Login page found. Ensure authentication is secure.
++ OSVDB-112004: HTTP TRACE method is active, which may allow XST attacks.
++ Allowed HTTP Methods: GET, POST, OPTIONS, TRACE
++ Cookie PHPSESSID created without the HttpOnly flag.
++ Cookie security flag not set on session cookies.
++ 6947 items checked: 17 item(s) reported on remote host
++ End Time:           2025-06-28 14:37:28 (GMT+5:30) (146 seconds)
+---------------------------------------------------------------------------
++ 1 host(s) tested
